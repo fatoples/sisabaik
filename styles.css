@@ -1,15 +1,15 @@
 :root {
   --color-primary: #888dc6;
-  --color-primary-dark: #0f4f39;
+  --color-primary-dark: #032217;
   --color-primary-soft: #e8f5ef;
   --color-accent: #f24b4b;
   --color-text: #000b05;
   --color-muted: #52615a;
   --color-surface: #ffffff;
   --color-background: #f6faf6;
-  --color-border: #cbd8d1;
+  --color-border: #000f07;
   --color-danger: #a52a2a;
-  --shadow-card: 0 0.5rem 1.5rem rgb(23 33 27 / 10%);
+  --shadow-card: 0 0.5rem 1.5rem rgba(0, 7, 3, 0.1);
   --radius-small: 0.5rem;
   --radius-medium: 0.9rem;
   --radius-large: 1.4rem;
@@ -366,13 +366,10 @@ input[type="radio"] {
         align-items: center;
     }
 }
-@media (min-width: 68rem) {
-    .offer-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-}
+    
+    .filter-panel { display:grid; gap:1rem; margin-block:1.5rem; padding:1rem; border:0.0625rem solid var(--color-border); border-radius:var(--radius-medium); background:var(--color-surface); }
+    .filter-panel p { margin:0; }
+    .status-message { min-height:1.6rem; color:var(--color-muted); }
+    .cart-summary { margin-block-start:1.5rem; padding:1rem; border-radius:var(--radius-medium); background:var(--color-primary-soft); }
+    .error-message { color:var(--color-danger); font-weight:700; }
+    @media (min-width:48rem) { .filter-panel { grid-template-columns: repeat(2, minmax(0,1fr)); }}

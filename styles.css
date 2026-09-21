@@ -1,14 +1,14 @@
 :root {
-  --color-primary: #03ed51;
-  --color-primary-dark: #032217;
-  --color-primary-soft: #e8f5ef;
-  --color-accent: #f24b4b;
-  --color-text: #000b05;
-  --color-muted: #52615a;
-  --color-surface: #ffffff;
-  --color-background: #f6faf6;
-  --color-border: #000f07;
-  --color-danger: #0eccf1;
+  --color-primary: #5b324f;
+  --color-primary-dark: #58123e;
+  --color-primary-soft: #e1aec8;
+  --color-accent: #886a7b;
+  --color-text: #25041c;
+  --color-muted: #470329;
+  --color-surface: #c8c2c5;
+  --color-background: #d790c3;
+  --color-border: #4a0328;
+  --color-danger: #ebabee;
   --shadow-card: 0 0.5rem 1.5rem rgba(0, 7, 3, 0.1);
   --radius-small: 0.5rem;
   --radius-medium: 0.9rem;
@@ -236,7 +236,7 @@ section {
     box-shadow: var(--shadow-card);
 }
 .offer-card__visual {
-    min-height: 8rem;
+    min-height: 4rem;
     background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
 }
 .offer-card__content {

@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #888dc6;
+  --color-primary: #03ed51;
   --color-primary-dark: #032217;
   --color-primary-soft: #e8f5ef;
   --color-accent: #f24b4b;
@@ -8,7 +8,7 @@
   --color-surface: #ffffff;
   --color-background: #f6faf6;
   --color-border: #000f07;
-  --color-danger: #a52a2a;
+  --color-danger: #0eccf1;
   --shadow-card: 0 0.5rem 1.5rem rgba(0, 7, 3, 0.1);
   --radius-small: 0.5rem;
   --radius-medium: 0.9rem;
